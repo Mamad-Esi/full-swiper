@@ -63,3 +63,26 @@ body {
   background-color: red !important; 
   opacity: 1;
 }
+
+
+.mySwiper1 {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto; /* وسط‌چین کردن کل اسلایدر */
+}
+
+.swiper-slide1 {
+  background: #ccc;
+  /* ارتفاع دلخواه */
+  height: 300px;
+  /* نمایش وسط‌چین متن داخل اسلاید */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+/* اگر خواستید برای تست بهتر، کمی حاشیه دور اسلایدها ببینید */
+.swiper-slide1 {
+  border: 2px solid #999;
+}

@@ -46,3 +46,26 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+
+
+// sample 3
+var swiper = new Swiper(".mySwiper1", {
+  loop:true,
+  breakpoints: {
+    // از عرض 640 پیکسل به بالا
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    // از عرض 1024 پیکسل به بالا
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
